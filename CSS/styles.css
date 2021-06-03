@@ -1,0 +1,241 @@
+/* index page */
+
+
+/* Main selectors */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+    background-color: hsl(300, 24%, 96%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+h3 {
+    font-weight: 600;
+}
+
+
+
+/* class selectors */
+
+/* introduction */
+.heading {
+    min-height: auto;
+}
+
+
+.heading-1 {
+    font-size: 5.5rem;
+    color: hsl(300, 43%, 22%);
+    font-weight: 900;
+}
+
+.sub-head {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+
+.intro {
+    color: hsl(303, 10%, 53%);
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+/* cards */
+.cards {
+    justify-content: center;
+    min-height: 350px;
+    display: flex;
+}
+
+
+.OD {
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
+    padding: 1.1rem;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.OD-desc {
+    display: flex;
+}
+
+/* top-borders */
+
+.OD-M {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    width: 98%;
+}
+
+.OD-Pl {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.OD-S {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.OD-P {
+    border-top: 5px solid hsl(49, 83%, 60%);
+}
+
+.OD-Pr {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+/* fa-icons and effects */
+.FA-S {
+    color: hsl(180, 62%, 55%);
+}
+
+.FA-M {
+    color: hsl(0, 78%, 62%);
+}
+
+.FA-Pl {
+    color: hsl(34, 97%, 64%);
+}
+
+.FA-Pr {
+    color: hsl(212, 86%, 64%);
+}
+
+.FA-P {
+    color: hsl(49, 83%, 60%);
+}
+
+
+.FA-S:hover {
+    text-shadow: 1px 1px 3px hsl(180, 92%, 51%);
+    transform: scale(1.2, 1.2);
+}
+
+.FA-M:hover {
+    text-shadow: 1px 1px 3px hsl(0, 87%, 57%);
+    transform: scale(1.2, 1.2);
+}
+
+
+.FA-Pl:hover {
+    text-shadow: 1px 1px 3px hsl(34, 95%, 60%);
+    transform: scale(1.2, 1.2);
+}
+
+.FA-Pr:hover {
+    text-shadow: 1px 1px 3px hsl(212, 98%, 56%);
+    transform: scale(1.2, 1.2);
+}
+
+.FA-P:hover {
+    text-shadow: 1px 1px 3px hsl(49, 83%, 60%);
+    transform: scale(1.2, 1.2);
+}
+
+/* Speaker-page */
+
+.speaker {
+    background-color: hsl(180, 52%, 85%);
+    ;
+}
+
+.speaker-div {
+    width: 80%;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.speaker-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* projector-page */
+.projector {
+    background-color: hsl(213, 67%, 76%);
+    
+}
+
+.projector-div {
+    width: 80%;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.projector-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* monitor-page */
+
+.monitor {
+    background-color:hsl(0, 65%, 73%);
+    
+}
+
+.monitor-div {
+    width: 80%;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.monitor-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* printer-page */
+
+.printer {
+    background-color:hsl(49, 71%, 81%);
+    
+}
+
+.printer-div {
+    width: 80%;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.printer-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Plotter-page */
+
+.plotter{
+    background-color:hsl(35, 80%, 72%);
+    
+}
+
+.plotter-div {
+    width: 80%;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.plotter-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
